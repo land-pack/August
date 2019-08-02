@@ -1,6 +1,9 @@
 all:
 	@gcc -o  ./build/main src/main.c
 
+debug:
+	@gcc -g -o  ./build/main src/main.c
+
 run:
 	@./build/main
 
