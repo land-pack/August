@@ -1,4 +1,5 @@
 all:
+	@mkdir build
 	@gcc -o  ./build/main src/main.c
 
 debug:

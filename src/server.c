@@ -42,6 +42,8 @@ createSocketServer() {
         exit(errno);
     }
 
+    listen(sockfd, 5);
+
     while (1) {
         int  clientfd;
         struct sockaddr_in client_addr;
